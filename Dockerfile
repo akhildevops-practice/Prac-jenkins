@@ -1,6 +1,6 @@
 FROM python:3.10
 
-WORKDIR /backend
+WORKDIR /backend-img
 
 RUN pip3 install flask
 RUN pip3 install pymysql
